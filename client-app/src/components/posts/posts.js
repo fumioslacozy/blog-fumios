@@ -84,11 +84,14 @@ class Posts extends Component {
                             </div>
                         </div>
                         <div className="panel-heading">
-                            <h3 className="panel-title">Featured</h3>
+                            <h3 className="panel-title">Author</h3>
                         </div>
                         <div className="panel-body">
-                            <div className="embed-responsive embed-responsive-4by3">
-                                <iframe className="embed-responsive-item" src="https://www.youtube.com/watch?v=MhkGQAoc7bc"></iframe>
+                            <div className="center-footer">
+                                <img className="img-circle" src="/img/250x250.png"></img>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint esse nulla quia quam veniam commodi dicta, iusto inventore. Voluptatum pariatur eveniet ea, officiis vitae praesentium beatae quas libero, esse facere.
+                                </p>
                             </div>
                         </div>
                     </div>
