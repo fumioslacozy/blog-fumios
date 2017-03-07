@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "laravel-elixir": "^5.0.0",
+    "bootstrap-sass": "^3.0.0"
+  },
+  "name": "fumiosblog",
+  "description": "Boilerplate blog application for a Laravel JWT Backend and a React/Redux Front-End with Bootstrap 4. Fork of [https://github.com/onerciller/react-redux-laravel](https://github.com/onerciller/react-redux-laravel)",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fumioslacozy/fumiosblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fumioslacozy/fumiosblog/issues"
+  },
+  "homepage": "https://github.com/fumioslacozy/fumiosblog#readme"
+}
