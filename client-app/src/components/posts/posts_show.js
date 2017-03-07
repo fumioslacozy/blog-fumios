@@ -23,22 +23,35 @@ class PostsShow extends Component{
     renderPost(post){
         if(post){
         return (
-            <div>
-            <h3>{post.title} {this.handleDeletePost()}</h3>  
-            <hr></hr>
-            <p>{post.body}</p>
+            <div className="col-md-12">
+                <div className="thumbnail">
+                    <img src="/img/1000x350.png"></img>
+                </div>
+                    <h3>{post.title} {this.handleDeletePost()}</h3>  
+                    <hr></hr>
+                    <p>{post.body}</p>       
             </div>
                );
         }
     }
+    
+    
     render(){
         const {post,loading,error} = this.props.activePost;
         if(loading == true){
             return <div className="loader"></div>;
         }
         return (
-            <div>
-            {this.renderPost(post)}
+            <div className="col-md-12">
+                <div className="col-md-2">
+                    
+                </div>
+                <div className="col-md-8">
+                    {this.renderPost(post)}    
+                </div>
+                <div className="col-md-2">
+                    
+                </div>
             </div>
                );
     }
